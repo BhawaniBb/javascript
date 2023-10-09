@@ -1,1 +1,12 @@
-This is my first javascript code
+<html>
+<body>
+<p>This is my first javascript code</p>
+<script>
+var x=10;
+let y=20;
+const=60;
+function add(x,y,z);
+add(x+y+z);
+</script>
+</body>
+</html>
