@@ -5,8 +5,7 @@
 var x=10;
 let y=20;
 const=60;
-function add(x,y,z);
-add(x+y+z);
+console.log(x+y+z);
 </script>
 </body>
 </html>
