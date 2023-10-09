@@ -1,0 +1,60 @@
+//1) Number-increasing Pyramid Pattern 
+
+class Main{
+    public static void main(String x[]){
+        
+        for(int j=1;j<=5;j++){
+            for(int i=1;i<=j;i++){
+                System.out.print(i+ " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+//2) Number triangle Pattern
+
+class Main{
+  public static void main(String x[]){
+      
+       for(int j=1;j<=5;j++){
+           for(int i=1;i<=5-j;i++){
+              System.out.print(" ");
+             }
+           for(int i=1;i<=j;i++){
+              System.out.print(j+" ");
+             }
+         System.out.println();
+        }
+     } 
+  }
+    
+//3)Number-increasing reverse Pyramid Pattern
+
+class Main{
+  public static void main(String x[]){
+      
+       for(int j=1;j<=5;j++){
+           for(int i=1;i<=6-j;i++){
+               System.out.print(i+ " ");
+           }
+          System.out.println();
+     } 
+  }
+}
+     
+//4)Number-changing Pyramid Pattern
+
+class Main{
+    public static void main(String x[]){
+        int num=1;
+        for (int j=1;j<=5;j++){
+            for(int i=1;i<=j;i++){
+                 System.out.print(num+" ");
+                 num++;
+                 
+            }
+            System.out.println();
+        }
+    }
+}
